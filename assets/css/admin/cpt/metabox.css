@@ -1,0 +1,25 @@
+/***
+ *	2019-03-21
+ */
+
+#polls-options { width: 100%; border-collapse: collapse; margin-bottom: 20px }
+	#polls-options thead {}
+		#polls-options thead tr { background: #f1f1f1 }
+		#polls-options thead th { padding: 8px }
+	#polls-options tfoot {}
+		#polls-options tfoot tr { background: #f1f1f1 }
+		#polls-options tfoot th { padding: 8px }
+	#polls-options tbody { counter-reset: answers; }
+		#polls-options tbody tr { counter-increment: answers; }
+			#polls-options tbody tr:nth-child( even ) { background: #f7f7f7 }
+			#polls-options tbody tr .poll-item-num {}
+				#polls-options tbody tr .poll-item-num:after { content: '#' counter( answers ); }
+			#polls-options tbody td { text-align: center }
+			#polls-options tbody tr .poll-item-id {}
+			#polls-options tbody tr .poll-item-answer { width: 60% }
+			#polls-options tbody tr .poll-item-count { width: 10% }
+				#polls-options tbody tr .poll-item-count input { text-align: center }
+			#polls-options tbody tr .poll-item-actions { text-align: center }
+		#polls-options tbody td,
+		#polls-options tbody th { padding: 8px; vertical-align: top }
+			#polls-options tbody td .text { width: 100% }

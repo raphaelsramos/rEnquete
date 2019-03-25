@@ -1,0 +1,38 @@
+/***
+ *	2019-03-22
+ */
+
+.poll { position: relative }
+
+	.poll.sending { pointer-events: none }
+		.poll.sending:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba( 255,255,255,.8 ); z-index: 8 }
+		.poll.sending:after {
+			content: ''; position: absolute; top: 50%; left: 50%; transform: translate( -20px, -20px ); width: 40px; height: 40px;
+			border: 3px solid #e7e7e7; border-top-color: #303c8a; border-radius: 50%;
+			z-index: 9; animation: spin 1s infinite cubic-bezier( .53,.21,.29,.67 );
+		}
+	
+	.poll-title {}
+	
+	.poll-form {}
+		.show-graph .poll-form { display: none }
+		.poll-options { list-style: none }
+			.poll-option { margin-left: 0 !important; margin-bottom: 8px !important }
+			.poll-option label { cursor: pointer }
+				.poll-option input {}
+				.poll-option span {}
+		.poll-actions { display: flex; align-items: center }
+			.poll-submit {}
+			.poll-show-status {}
+	
+	.poll-ranking { display: none }
+		.show-graph .poll-ranking { display: block }
+		.poll-graphs { list-style: none }
+			.poll-graph { margin-left: 0 !important }
+				.poll-graph + .poll-graph { margin-top: 20px }
+				.poll-answer { margin-bottom:8px }
+				.poll-bar-bg { width: 100%; height: 20px; background: #f7f7f7 }
+					.poll-bar { height: 100%; background: #303c8a }
+
+@-webkit-keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }

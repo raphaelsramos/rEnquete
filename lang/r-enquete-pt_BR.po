@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rEnquete\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-24 19:08+0000\n"
+"PO-Revision-Date: 2019-03-24 19:09+0000\n"
+"Last-Translator: Raphael Ramos <contato@raphaelramos.com.br>\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.1.1"
+
+#. Description of the plugin
+msgid "A Poll shortcode plugin for WP"
+msgstr "Um plugin de Enquetes para o WP"
+
+#: inc/cpt/metabox.php:85 inc/cpt/metabox.php:94
+msgid "Actions"
+msgstr "Ações"
+
+#: inc/cpt/metabox.php:136
+msgid "Add Answer"
+msgstr "Adicionar Resposta"
+
+#: inc/cpt/core.php:61 inc/cpt/core.php:62
+msgid "Add New Poll"
+msgstr "Adicionar nova Enquete"
+
+#: inc/cpt/core.php:60
+msgid "All Polls"
+msgstr "Todas as Enquetes"
+
+#: inc/cpt/metabox.php:83 inc/cpt/metabox.php:92
+msgid "Answer"
+msgstr "Resposta"
+
+#: inc/cpt/helpers.php:18 inc/cpt/sc.php:44 inc/cpt/sc.php:66
+msgid "Answer missing. Try again."
+msgstr "Resposta não encontrada. Tente novamente."
+
+#: inc/cpt/metabox.php:67
+msgid "Answers"
+msgstr "Respostas"
+
+#: inc/cpt/metabox.php:84 inc/cpt/metabox.php:93
+msgid "Count"
+msgstr "Contador"
+
+#: inc/cpt/core.php:64
+msgid "Edit Poll"
+msgstr "Editar Enquete"
+
+#: inc/cpt/helpers.php:19 inc/cpt/sc.php:45 inc/cpt/sc.php:70
+msgid "Error processing your vote. Try again."
+msgstr "Erro ao processar seu voto. Tente novamente."
+
+#: inc/cpt/core.php:71
+msgid "Featured Image"
+msgstr "Imagem de Destaque"
+
+#: inc/cpt/core.php:79
+msgid "Filter polls list"
+msgstr "Filtra lista de Enquetes"
+
+#. Author URI of the plugin
+msgid "https://www.raphaelramos.com.br/"
+msgstr "https://www.raphaelramos.com.br/"
+
+#. URI of the plugin
+msgid "https://www.raphaelramos.com.br/wp/plugins/r-enquete/"
+msgstr "https://www.raphaelramos.com.br/wp/plugins/r-enquete/"
+
+#: inc/cpt/metabox.php:82 inc/cpt/metabox.php:91
+msgid "ID"
+msgstr "ID"
+
+#: inc/cpt/core.php:75
+msgid "Insert into poll"
+msgstr "Inserir na Enquete"
+
+#: inc/cpt/core.php:91
+msgid "List of surveys"
+msgstr "Lista de Enquetes"
+
+#: inc/cpt/core.php:63
+msgid "New Poll"
+msgstr "Nova Enquete"
+
+#: inc/cpt/core.php:69
+msgid "Not found"
+msgstr "Não encontrada"
+
+#: inc/cpt/core.php:70
+msgid "Not found in Trash"
+msgstr "Não encontrada na Lixeira"
+
+#: inc/cpt/core.php:59
+msgid "Parent Poll:"
+msgstr "Enquete Pai:"
+
+#: inc/cpt/sc.php:50
+msgid "Please choose one answer."
+msgstr "Por favor selecione uma resposta."
+
+#: inc/cpt/core.php:56
+msgid "Poll"
+msgstr "Enquete"
+
+#: inc/cpt/core.php:57
+msgid "Poll Archives"
+msgstr "Arquivo de Enquetes"
+
+#: inc/cpt/core.php:58
+msgid "Poll Attributes"
+msgstr "Atributos da Enquete"
+
+#: inc/cpt/helpers.php:17 inc/cpt/sc.php:43 inc/cpt/sc.php:62
+msgid "Poll missing. Try again."
+msgstr "Enquete não encontrada. Tente novamente."
+
+#: inc/cpt/core.php:55
+msgid "Polls"
+msgstr "Enquetes"
+
+#: inc/cpt/core.php:77
+msgid "Polls list"
+msgstr "Lista de Enquetes"
+
+#: inc/cpt/core.php:78
+msgid "Polls list navigation"
+msgstr "Lista de navegação de Enquetes"
+
+#: inc/cpt/core.php:53
+msgctxt "Post Type General Name"
+msgid "Polls"
+msgstr "Enquetes"
+
+#: inc/cpt/core.php:54
+msgctxt "Post Type Singular Name"
+msgid "Poll"
+msgstr "Enquete"
+
+#. Author of the plugin
+msgid "Raphael Ramos"
+msgstr "Raphael Ramos"
+
+#: inc/cpt/core.php:73
+msgid "Remove featured image"
+msgstr "Remover Imagem de Destaque"
+
+#: inc/cpt/metabox.php:127 inc/cpt/metabox.php:136 inc/cpt/metabox.php:163
+msgid "Remove this Answer"
+msgstr "Remover esta Resposta"
+
+#. Name of the plugin
+msgid "rEnquete"
+msgstr "rEnquete"
+
+#: inc/cpt/sc.php:216
+msgid "Return to answers"
+msgstr "Voltar para as respostas"
+
+#: inc/cpt/core.php:68
+msgid "Search Poll"
+msgstr "Procurar Enquetes"
+
+#: inc/cpt/sc.php:179
+msgid "See statistics"
+msgstr "Veja as estatísticas"
+
+#: inc/cpt/core.php:72
+msgid "Set featured image"
+msgstr "Definir Imagem de Destaque"
+
+#: inc/cpt/columns.php:27
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/cpt/core.php:65
+msgid "Update Poll"
+msgstr "Atualizar Enquete"
+
+#: inc/cpt/core.php:76
+msgid "Uploaded to this poll"
+msgstr "Enviar para esta Enquete"
+
+#: inc/cpt/core.php:74
+msgid "Use as featured image"
+msgstr "Usar como Imagem de Destaque"
+
+#: inc/cpt/core.php:66
+msgid "View Poll"
+msgstr "Ver Enquete"
+
+#: inc/cpt/core.php:67
+msgid "View Polls"
+msgstr "Ver Enquetes"
+
+#: inc/cpt/sc.php:180
+msgid "Vote"
+msgstr "Votar"
+
+#: inc/cpt/sc.php:199
+msgid "votes"
+msgstr "Votos"
+
+#: inc/cpt/helpers.php:21 inc/cpt/sc.php:47 inc/cpt/sc.php:78
+msgid "We didn't find the answer selected. Try again."
+msgstr "Não encontramos a resposta selecionada. Tente novamente."
+
+#: inc/cpt/helpers.php:20 inc/cpt/sc.php:46 inc/cpt/sc.php:74
+msgid "We didn't find the answers associated with this poll. Try again."
+msgstr ""
+"Não encontramos as respostas associadas à esta enquete. Tente novamente."
+
+#: inc/cpt/helpers.php:22 inc/cpt/sc.php:48 inc/cpt/sc.php:82
+msgid "You have already voted in this poll."
+msgstr "Você já votou nesta Enquete."
+
+#: inc/cpt/helpers.php:23 inc/cpt/sc.php:49 inc/cpt/sc.php:98
+msgid "Your vote was computed with success."
+msgstr "Seu voto foi computado com sucesso."
